@@ -1,0 +1,312 @@
+/* * {
+    border: solid 1px red;
+} */
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: optima;
+}
+/* navbar */
+nav {
+    margin: 0px;
+    background-color: black;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: stretch; 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+.nav-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+    font-size: 25px; 
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 66%
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 75%;
+}
+/* Homepage */
+.main-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    padding: 25px;
+}
+
+.background-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.087);
+    border-radius: 5px;
+    z-index: -1;
+}
+.main-heading {
+    position: absolute;
+    z-index: 1;
+    font-size: 69px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+.main-intro {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    top: 125%;
+    font-size: 33px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+/* Footer */
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.footer-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* About Page */
+.about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    padding: 25px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.about-background {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.087);
+        border-radius: 5px;
+        z-index: -1;
+}
+.about-heading {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.about-body {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 50%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Works Page */
+.work-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    padding: 25px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.work-background {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.087);
+        border-radius: 5px;
+        z-index: -1;
+}
+.work-heading {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.works-grid {
+    display: grid;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 50%;
+    height: 50%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.works-coding {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works-photos {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works-writing {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works-music {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-link {
+    background-color: rgba(0, 0, 0, 0.709);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Contact */
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    padding: 25px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.contact-background {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.087);
+        border-radius: 5px;
+        z-index: -1;
+}
+.contact-heading {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contact-body {
+    position: absolute;
+    z-index: 1;
+    top: 140%;
+    width: 50%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contact-form {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    width: 50%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.form-header {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+label {
+    width: 75%;
+    margin: 15px
+}
+input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+::placeholder {
+    color: lightgray;
+    text-align: center;
+}
+textarea {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    margin-bottom: 15px;
+}
+#submit {
+    padding:15px;
+    margin-bottom: 15px;
+    background-color: rgba(241, 174, 41, 0.5);
+}
